@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: black;
+    padding:20px;
+    position: sticky;
+
+
+}
+
+.header__left > img {
+height:80px;
+cursor: pointer;
+}
+
+.header__middle {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__middleLinks {
+    display: flex;
+    color: white!important;
+    cursor: pointer;
+}
+
+.header__middleLinks {
+    margin-right: 20px;
+}
+
+.header__middleLinks > a {
+    margin-left: 10px;
+    color: white;
+}
+
+
+.header__right > button {
+    background-color: black!important;
+    color: white!important;
+    border: 1px solid white;
+    margin: 40px!important;
+}
+.header__right > button:hover {
+    background-color: white!important;
+    color: black!important;
+}
+
+
+
+

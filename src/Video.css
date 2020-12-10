@@ -1,0 +1,48 @@
+.Video {
+    height: 100vh;
+    align-items: center;
+}
+
+.trailerss {
+    height: 100%;
+    align-items: center;
+}
+
+
+
+.Video > iframe {
+   
+    
+   height: 100%;
+    width: 2000px;
+}
+
+.trailers > iframe {
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+
+@media (max-width:900px) {
+    
+.trailers> iframe {
+   
+    
+    height: 100%;
+     width: 400px;
+ }
+
+ .Video> iframe {
+   
+
+    height: 100%;
+     width: 100%;
+ }
+
+ .Video {
+     height: 70vh;
+ }
+ 
+
+}

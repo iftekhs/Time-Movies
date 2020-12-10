@@ -1,0 +1,39 @@
+.banner {
+    background-image: url("https://dailysuperheroes.com/wp-content/uploads/2018/04/004.jpg");
+    background-position: center center;
+    height: 50vh;
+    position: relative;
+width: 100%;
+}
+
+
+
+.banner__info {
+    color: White;
+   padding-top: 180px;
+   padding-left: 30px;
+}
+.banner__info  > button {
+    margin-top: 10px;
+}
+
+.banner__button {
+    background-color: #ff7779!important;
+    color: white!important;
+    border-radius: 10px !important;
+    width: 150px;
+    margin:20px;
+    margin-left: 0;
+}
+.banner__button:hover {
+    color: #ff7779!important ;
+    background-color: white!important;
+}
+.linkwatchnow > button {
+    margin-top: 20px;
+
+}
+
+.linkwatchnow  {
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+
+
+
+.home__cardSection {
+    display: flex;
+    padding:30px;
+    margin-top: 20px;
+}
+
+@media (max-width:990px) {
+    .home__cardSection {
+        display: grid;
+        margin-left: 10px;
+    }
+}
+
+.movie__title {
+    border-radius: 50px !important;
+background-image:linear-gradient(315deg, #42378f 0%, #f53844 74%)!important; 
+  width: 150px !important;
+  color: White!important;
+margin:50px !important;
+border: none!important;
+}
+
+.home__cardSection  a {
+    color: black!important;
+    text-decoration: none !important;
+}
+

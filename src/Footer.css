@@ -1,0 +1,23 @@
+.footer {
+    border-top:  1px solid lightgray;
+    padding: 20px;
+    background-color: black;
+    bottom: 0;
+    text-align: center;
+    bottom:0;
+
+}
+
+.footer > p,
+.footer > a{
+ padding: 5px;
+ font-size: 14px; 
+ color: white; 
+
+}
+
+
+.footer > a:hover {
+    cursor: pointer; 
+    text-decoration: underline;
+}
