@@ -1,110 +1,102 @@
 .season {
-    color: white!important;
-    background-color: tra;
- 
+  color: white !important;
+  background-color: tra;
 }
 
 .season__items {
-    display: flex;
-    align-items: center;
-background-color: transparent;
-background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-padding: 20px!important;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  padding: 20px !important;
 }
 
 .season__itemInfo > h1,
 .season__itemInfo > p {
-    color: 		white ;
+  color: white;
 }
-
 
 .season__itemInfo {
-    margin-left: 80px;
-    
-    
+  margin-left: 80px;
 }
 
-@media (max-width:900px) {
-    .season__items {
-        display: grid;
-    }
-    .item__image {
-        width: 440px!important;
-    }
-    .season__itemInfo {
-        margin: 0;
-    }
-    .actor {
-        display: grid!important;
-       
-    }
-
-   
+@media (max-width: 900px) {
+  .season__items {
+    display: grid;
+  }
+  .item__image {
+    width: 440px !important;
+  }
+  .season__itemInfo {
+    margin: 0;
+  }
+  .actor {
+    display: grid !important;
+  }
 }
 
 .actor > img {
-margin-top: 50px;
-height: 60px;
-width: 60px;
+  margin-top: 50px;
+  height: 60px;
+  width: 60px;
 }
 .actor {
-    display: flex;
-    align-items: center;
-    margin-right: 12px;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
 }
 
 .actor__info {
-    margin-top: 40px;
-    margin-left: 10px;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
 .actor__info > h6 {
-    color: white;
-    font-size: large;
-    font-weight: 100;
+  color: white;
+  font-size: large;
+  font-weight: 100;
 }
 
 .actor__info > p {
-    color: white;
-    font-size: large;
-    font-weight: 500;
+  color: white;
+  font-size: large;
+  font-weight: 500;
 }
 
 .season__button {
-    background-color: greenyellow !important;
-    color: black!important;
-    border-radius: 50px!important;
-    margin-top: 20px!important;
-    margin-right: 12px!important;
-    font-weight: 800;
+  background-color: greenyellow !important;
+  color: black !important;
+  border-radius: 50px !important;
+  margin-top: 20px !important;
+  margin-right: 12px !important;
+  font-weight: 800;
 }
 
 .season__button:hover {
-    background-color: black!important;
-    color: greenyellow!important;
+  background-color: black !important;
+  color: greenyellow !important;
 }
 
 .item__image {
-width: 700px;
-height: 700px;
-border-radius: 20px;
+  width: 700px;
+  height: 700px;
+  border-radius: 20px;
 
-height: 700px;
-transition: transform 100ms ease-in;
-cursor: pointer;
+  height: 700px;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
 }
 
 .item__image > img {
-    height: 100%;
-    width: 100%;
-    border-radius: 30px;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
 }
 
 .item__image:hover {
-    transform: scale(1.07);
+  transform: scale(1.07);
 }
 
 .season__actors {
-    display: flex;
-    
+  display: flex;
 }
